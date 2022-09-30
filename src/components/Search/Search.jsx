@@ -48,8 +48,8 @@ const Search=({data,onSearch})=>{
             {showOptions && 
             <ul className="options">
                 {options.map(option=>
-                    <li className="option" key={option} onClick={()=>handleOptionClick(option)} >
-                        <button className="optionbtn">
+                    <li className="option" key={option} >
+                        <button onClick={()=>handleOptionClick(option)} className="optionbtn">
                             {option}
                         </button>
                     </li>)}

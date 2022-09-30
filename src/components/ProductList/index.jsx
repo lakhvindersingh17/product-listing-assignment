@@ -4,12 +4,12 @@ import ProductCard from "../ProductCard";
 const ProductList=({products})=>{
 
     return(<>
-            <Box style={{marginTop:'2%'}} >
+            <Box style={{margin:'2%'}} >
 
             {  
                 (products && products.length>0)?
                     
-                    <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+                    <Grid container spacing={{ xs: 2, md: 5 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                         {products.map((product)=> (
                             <Grid item xs={2} sm={4} md={4} key={product.id}>
                                 <ProductCard product={product} />

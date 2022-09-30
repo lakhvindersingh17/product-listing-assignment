@@ -9,10 +9,10 @@ const ProductCard=({product})=>{
 
     return <>
     <Link to={`/product/${product.id}`} style={{textDecoration:'none'}} >
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 400}}>
       <CardMedia
         component="img"
-        height="150px"
+        height="200px"
         image={product.image}
         alt={product.title}
       />

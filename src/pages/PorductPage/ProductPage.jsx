@@ -26,7 +26,7 @@ const ProductPage=()=>{
                     {product.title}
                 </Typography>
 
-                <Typography variant="subtitle1" gutterBottomcolor="text.secondary"  component="spanß">
+                <Typography variant="subtitle1" gutterBottom color="text.secondary"  component="span">
                     {product.description}
                 </Typography>
             </Box>
